@@ -1,0 +1,6 @@
+[submodule "modules/mio"]
+	path = modules/mio
+	url = https://github.com/spetroce/mio.git
+[submodule "modules/mvg"]
+	path = modules/mvg
+	url = https://github.com/spetroce/mvg.git

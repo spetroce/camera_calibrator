@@ -167,6 +167,8 @@ int CreateImageList(std::string dir_path, const std::string file_name_out, std::
     for(size_t j = 0; j < num_prefix; ++j)
       fs << img_file_name_vec[j][i];
   fs << "]";
+
+  return 0;
 }
 
 

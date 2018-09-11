@@ -1,0 +1,5 @@
+include_directories(${CMAKE_CURRENT_LIST_DIR})
+qt5_wrap_ui(camera_calibrator_UI camera_calibrator.ui)
+qt5_add_resources(camera_calibrator_RESOURCES resources/qt_icons.qrc)
+add_executable(camera_calibrator camera_calibrator.cpp ${camera_calibrator_UI} ${camera_calibrator_RESOURCES})
+target_link_libraries(camera_calibrator Qt5::Widgets ${OPENCV_LIBRARIES} X11)
